@@ -8,6 +8,7 @@ class OnboardingPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xffd8e8e8),
       body: SafeArea(
         child: Stack(
           children: [
@@ -22,7 +23,7 @@ class OnboardingPage extends StatelessWidget {
 
                   children: [
                     Image.asset(_controller.onboardingPages[index].imageAsset),
-                    SizedBox(height: 32.0),
+                    const SizedBox(height: 32.0),
                     Text(_controller.onboardingPages[index].title,style: TextStyle(fontSize: 24,fontWeight: FontWeight.w500)),
                     SizedBox(height: 32.0),
                     Padding(
@@ -43,7 +44,7 @@ class OnboardingPage extends StatelessWidget {
                       width: 12,
                       height: 12,
                       decoration: BoxDecoration(
-                        color: _controller .selectedPageIndex.value == index ? Colors.red : Colors.grey,
+                        color: _controller .selectedPageIndex.value == index ? Color(0xffe2474b) : Color(0xffa8d0da),
                         shape: BoxShape.circle
                       ),
                     );
@@ -57,6 +58,7 @@ class OnboardingPage extends StatelessWidget {
               right: 20,
               bottom: 20,
               child: FloatingActionButton(
+                backgroundColor: const Color(0xff406d96),
                 elevation: 0,
                 onPressed:_controller.forwardAction,
                 child: Obx((){

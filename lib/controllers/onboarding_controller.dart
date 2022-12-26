@@ -21,9 +21,9 @@ class OnboardingController extends GetxController
 
 
   List<OnboardingInfo> onboardingPages = [
-    OnboardingInfo('assets/icons8-book-reading-96.png', 'Dont Readnig your book?', 'You can easily hear your teacher voice'),
-    OnboardingInfo('assets/icons8-knowledge-sharing-80.png','Share your knowledge', 'share your knowledge and opinion with others here '),
-    OnboardingInfo('assets/icons8-pixar-lamp-80.png', 'Be Precisley', 'Focus on every thing,readi a lot and enjoy what you get')
+    OnboardingInfo('assets/anxiety2.png', 'Why are you nervous?', 'You miss your class for some reasons??'),
+    OnboardingInfo('assets/problem.png','Dont worry!!','We,your teacher and classmates have your back '),
+    OnboardingInfo('assets/customer-service.png', 'You say how??', 'Thats too easy all you need is signup in this application and access to all notes,voices,homework of your courses!!')
 
 
 

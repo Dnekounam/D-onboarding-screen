@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'App onboard',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+       // primarySwatch: Color(0xff406d96),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home:OnboardingPage(),
